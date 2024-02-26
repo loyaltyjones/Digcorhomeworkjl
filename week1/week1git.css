@@ -1,0 +1,100 @@
+
+.logo{
+    text-align: center;
+    position: absolute;
+    top: 30px;
+    left: 600px;
+}
+.signin{
+    position: absolute;
+    top: 110px;
+    left: 550px;
+    font-family: sans-serif;
+}
+.box{
+    border-radius: 10px;
+    border: 2px solid #ebedf0;
+    padding: 20px; 
+    width: 290px;
+    height: 190px; 
+    position: absolute;
+    top: 180px;
+    right: 470px; 
+    background-color: #ebedf0;
+    font-family: sans-serif;
+}
+.user{
+    position: absolute;
+    top: 5px;
+    font-family: monospace; 
+
+
+}
+.pass{
+    position: absolute;
+    bottom: 100px;
+
+}
+.button1{
+    border-radius: 5px;
+    border-color: #ebedf0;
+    height: 30px;
+    position: absolute;
+    top: 50px;
+}   
+.button1a{
+    border-radius: 5px;
+    border-color: #ebedf0;
+    height: 30px;
+    position: absolute;
+    top: 130px;
+
+}
+.button2{
+    /* background-color: green; 
+    position: absolute;
+    bottom: 20px;
+    border-radius: 10px;*/
+    border-radius: 5px;
+    border-color: #ebedf0;
+    width: 292px;
+    height: 36px;
+    padding: 0px;
+    margin: 0px;
+    background-color: green;
+    position: absolute;
+    top: 180px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.boxtwo{ 
+    border: 2px solid #ebedf0;
+    border-radius: 10px;
+    padding: 0px;
+    width: 330px;
+    height: 90px;
+    position: absolute;
+    top: 430px;
+    right: 470px;
+    text-align: center;
+    font-family: sans-serif;   
+}
+.footer{
+    text-align: center;
+    color: gray;
+    position: absolute;
+    top: 600px;
+    right: 300px;
+    font-family: sans-serif;   
+}
+/* .test{ 
+    border-radius: 5px;
+    width: 292px;
+    height: 36px;
+    padding: 0px;
+    margin: 0px;
+    background-color: green;
+    position: absolute;
+    top: 180px;
+    text-align: center;
+}*/
