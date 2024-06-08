@@ -1,0 +1,99 @@
+/* .bracket1{
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    width: 350px;
+    font-size: 1rem;
+    border-radius: 0px;
+    border-color: red;
+    padding: 5px;
+    margin: 5px;
+    background-color: aqua;
+    font-size: 20px;
+    
+    
+    
+
+
+}
+
+.bracket2{
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    width: 350px;
+    font-size: 1rem;
+    border-radius: 0px;
+    border-color: red;
+    padding: 5px;
+    margin: 5px;
+    background-color: aqua;
+    font-size: 20px;
+    
+    
+
+
+}
+
+.bracket3{
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    width: 350px;
+    font-size: 1rem;
+    border-radius: 0px;
+    border-color: red;
+    padding: 5px;
+    margin: 5px;
+    background-color: aqua;
+    font-size: 20px;
+    
+    
+
+
+}
+
+.bracket4{
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    width: 350px;
+    font-size: 1rem;
+    border-radius: 0px;
+    border-color: red;
+    padding: 5px;
+    margin: 5px;
+    background-color: aqua;
+    font-size: 20px;
+    
+    
+
+
+} */
+
+
+.bracket1 {
+    border: 2px solid blue;
+    width: 300px;
+    text-align: center;
+}
+
+.bracket2 {
+    border: 2px solid orange;
+    width: 300px;
+    text-align: center;
+}
+
+.bracket3 {
+    border: 2px solid green;
+    width: 300px;
+    text-align: center;
+}
+
+.bracket4 {
+    border: 2px solid red;
+    width: 300px;
+    text-align: center;
+}
+
+   
+
+
+.mainDivWest{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+
+}

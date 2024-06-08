@@ -1,0 +1,36 @@
+body{
+    background-image: url(livecomedy.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+
+
+.userP{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color:aqua; */
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 50px;
+    border: solid aqua;
+    
+    
+}
+
+.signinn{
+    color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+ 
+   
+}
+
+
+

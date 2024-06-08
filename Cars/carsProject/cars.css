@@ -1,0 +1,480 @@
+body{
+    /* background-image: url(Pagani.png); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 20px;
+    
+   
+}
+
+/* .bg-body-tertiary{  background-color: blueviolet;
+} 
+ 
+
+.container-fluid{
+    background-color: aqua;
+    margin: 0;
+    
+} */
+
+/* header */
+header{
+  font-family: monospace;
+  font-size: 80px;
+  font-weight: bolder;
+  position: absolute;
+  top: -25PX;
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+   animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+
+}
+ 
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+/* .header{
+	-webkit-animation: color-change-5x 8s linear infinite alternate both;
+	        animation: color-change-5x 8s linear infinite alternate both;
+}
+
+
+ 
+ @-webkit-keyframes color-change-5x {
+  0% {
+    background: #19dcea;
+  }
+  25% {
+    background: #b22cff;
+  }
+  50% {
+    background: #ea2222;
+  }
+  75% {
+    background: #f5be10;
+  }
+  100% {
+    background: #3bd80d;
+  }
+}
+@keyframes color-change-5x {
+  0% {
+    background: #19dcea;
+  }
+  25% {
+    background: #b22cff;
+  }
+  50% {
+    background: #ea2222;
+  }
+  75% {
+    background: #f5be10;
+  }
+  100% {
+    background: #3bd80d;
+  }
+}  */ 
+
+.header2{
+  background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  font-size: 80px;
+  margin: 10px 0;
+}
+audio{
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  color-scheme: green;
+ 
+}
+  
+
+
+
+
+
+
+
+
+/* modal */
+.btn{
+  position: absolute;
+  top: 80px;
+}
+.enter{
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #06d54e;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+    width: 500px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    position: absolute;
+    top: 20%;
+    right: 35%;
+}
+  
+.enter span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.enter span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -50px;
+    transition: 0.5s;
+}
+  
+.enter:hover span {
+    padding-right: 25px;
+}
+  
+.enter:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  /* navbar */
+  /* .navbar-nav{
+
+  }
+
+.nav-link{
+    background-color: red;
+    font-weight: bolder; 
+    
+} */
+/* enter button */
+.enter{
+	-webkit-animation: flicker-in-1 2s linear 2  backwards;
+	        animation: flicker-in-1 2s linear 2  backwards;
+            /* animation-iteration-count: 10; */
+            animation-delay: 3s;
+}
+@-webkit-keyframes flicker-in-1 {
+    0% {
+      opacity: 0;
+    }
+    10% {
+      opacity: 0;
+    }
+    10.1% {
+      opacity: 1;
+    }
+    10.2% {
+      opacity: 0;
+    }
+    20% {
+      opacity: 0;
+    }
+    20.1% {
+      opacity: 1;
+    }
+    20.6% {
+      opacity: 0;
+    }
+    30% {
+      opacity: 0;
+    }
+    30.1% {
+      opacity: 1;
+    }
+    30.5% {
+      opacity: 1;
+    }
+    30.6% {
+      opacity: 0;
+    }
+    45% {
+      opacity: 0;
+    }
+    45.1% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 1;
+    }
+    55% {
+      opacity: 1;
+    }
+    55.1% {
+      opacity: 0;
+    }
+    57% {
+      opacity: 0;
+    }
+    57.1% {
+      opacity: 1;
+    }
+    60% {
+      opacity: 1;
+    }
+    60.1% {
+      opacity: 0;
+    }
+    65% {
+      opacity: 0;
+    }
+    65.1% {
+      opacity: 1;
+    }
+    75% {
+      opacity: 1;
+    }
+    75.1% {
+      opacity: 0;
+    }
+    77% {
+      opacity: 0;
+    }
+    77.1% {
+      opacity: 1;
+    }
+    85% {
+      opacity: 1;
+    }
+    85.1% {
+      opacity: 0;
+    }
+    86% {
+      opacity: 0;
+    }
+    86.1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }}
+ @keyframes flicker-in-1 {
+    0% {
+      opacity: 0;
+    }
+    10% {
+      opacity: 0;
+    }
+    10.1% {
+      opacity: 1;
+    }
+    10.2% {
+      opacity: 0;
+    }
+    20% {
+      opacity: 0;
+    }
+    20.1% {
+      opacity: 1;
+    }
+    20.6% {
+      opacity: 0;
+    }
+    30% {
+      opacity: 0;
+    }
+    30.1% {
+      opacity: 1;
+    }
+    30.5% {
+      opacity: 1;
+    }
+    30.6% {
+      opacity: 0;
+    }
+    45% {
+      opacity: 0;
+    }
+    45.1% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 1;
+    }
+    55% {
+      opacity: 1;
+    }
+    55.1% {
+      opacity: 0;
+    }
+    57% {
+      opacity: 0;
+    }
+    57.1% {
+      opacity: 1;
+    }
+    60% {
+      opacity: 1;
+    }
+    60.1% {
+      opacity: 0;
+    }
+    65% {
+      opacity: 0;
+    }
+    65.1% {
+      opacity: 1;
+    }
+    75% {
+      opacity: 1;
+    }
+    75.1% {
+      opacity: 0;
+    }
+    77% {
+      opacity: 0;
+    }
+    77.1% {
+      opacity: 1;
+    }
+    85% {
+      opacity: 1;
+    }
+    85.1% {
+      opacity: 0;
+    }
+    86% {
+      opacity: 0;
+    }
+    86.1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+  /* footer */
+footer{
+    height: 120PX;
+    width: 90%;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    left: 85px;
+    bottom:30px;
+
+    
+
+}
+.footer-font{
+    font-size: small;
+    color:coral;
+    padding: 5px;
+}
+/* footer animation */
+/*base code*/
+footer{
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+footer{
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+footer{
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+}
+  /*the animation definition*/
+  @-webkit-keyframes bounceInUp {
+    0%, 100%, 60%, 75%, 90% {
+      -webkit-transition-timing-function: cubic-bezier(0.215, .61, .355, 1);
+      transition-timing-function: cubic-bezier(0.215, .61, .355, 1)
+    }
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 3000px, 0);
+      transform: translate3d(0, 3000px, 0)
+    }
+    60% {
+      opacity: 1;
+      -webkit-transform: translate3d(0, -20px, 0);
+      transform: translate3d(0, -20px, 0)
+    }
+    75% {
+      -webkit-transform: translate3d(0, 10px, 0);
+      transform: translate3d(0, 10px, 0)
+    }
+    90% {
+      -webkit-transform: translate3d(0, -5px, 0);
+      transform: translate3d(0, -5px, 0)
+    }
+    100% {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0)
+    }
+}
+  @keyframes bounceInUp {
+    0%, 100%, 60%, 75%, 90% {
+      -webkit-transition-timing-function: cubic-bezier(0.215, .61, .355, 1);
+      transition-timing-function: cubic-bezier(0.215, .61, .355, 1)
+    }
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 3000px, 0);
+      -ms-transform: translate3d(0, 3000px, 0);
+      transform: translate3d(0, 3000px, 0)
+    }
+    60% {
+      opacity: 1;
+      -webkit-transform: translate3d(0, -20px, 0);
+      -ms-transform: translate3d(0, -20px, 0);
+      transform: translate3d(0, -20px, 0)
+    }
+    75% {
+      -webkit-transform: translate3d(0, 10px, 0);
+      -ms-transform: translate3d(0, 10px, 0);
+      transform: translate3d(0, 10px, 0)
+    }
+    90% {
+      -webkit-transform: translate3d(0, -5px, 0);
+      -ms-transform: translate3d(0, -5px, 0);
+      transform: translate3d(0, -5px, 0)
+    }
+    100% {
+      -webkit-transform: translate3d(0, 0, 0);
+      -ms-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0)
+    }
+}
+footer {
+    -webkit-animation-name: bounceInUp;
+    animation-name: bounceInUp
+}
+
+

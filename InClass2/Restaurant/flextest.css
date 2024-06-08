@@ -1,0 +1,30 @@
+.accordion{
+    background-color: green;
+    border: 15px;
+    border-color: black;
+    margin: 30px;
+    padding: 25px;
+    height: 1000px;
+    width: 1800px;
+    display: flex;
+    
+   
+
+    
+    
+
+    
+     
+}
+/* #boo{} */
+    /* color: red; */
+    /* background-color: blue } */
+
+.accordion-button{
+    color: yellow;
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    
+
+}
