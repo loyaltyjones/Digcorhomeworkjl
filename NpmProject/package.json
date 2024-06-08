@@ -1,0 +1,19 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "Basic todolist",
+  "main": "server2.js",
+  "scripts": {
+    "start": "nodemon server2.js",
+    "seed": "PGPASSWORD=goodworks17 psql -U postgres -a -f ./sql/todo.sql"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0",
+    "swagger-ui-express": "^5.0.0",
+    "winston": "^3.13.0",
+    "yamljs": "^0.3.0"
+  }
+}
