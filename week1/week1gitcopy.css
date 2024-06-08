@@ -16,13 +16,19 @@
     border-radius: 10px;
     border: 2px #F6F8FA;
     padding: 20px; 
-    width: 290px;
-    height: 190px; 
+    width: 330px;
+    height: 240px; 
     position: absolute;
     top: 180px;
     right: 470px; 
     background-color: #F6F8FA;
     font-family: sans-serif;
+}
+.box label{
+    margin-left: 7px;
+}
+.forgot-pw {
+    margin-left: 20px;
 }
 .user{
     position: absolute;
@@ -68,8 +74,7 @@
     font-family: sans-serif;
 }
 .boxtwo{ 
-    background-color: #F6F8FA;
-    border: 2px #F6F8FA;  
+    border: 2px solid #F6F8FA;
     border-radius: 10px;
     padding: 0px;
     width: 330px;
@@ -79,7 +84,6 @@
     right: 470px;
     text-align: center;
     font-family: sans-serif;  
-    
 }
 .footer{
     text-align: center;
@@ -101,5 +105,15 @@
     text-align: center;
 }*/
 
+.top-btn {
+    width: 292px;
+    background-color: green;
+    border-color: green;
+    position: absolute;
+    top: 180px;
+    right: 16px;
+}
 
-
+.pop {
+    width: 292px;
+}
