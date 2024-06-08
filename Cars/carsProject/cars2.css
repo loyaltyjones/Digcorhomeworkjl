@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(202, 215, 225);
+
+  }
+  /* top nav bar styling? */
+.bg-body-tertiary{  background-color: blueviolet;
+}
+.nav-link{
+  background-color: red;
+  font-weight:bolder;
+}
+.container-fluid{
+  background-color: aqua;
+  margin: 0;
+}
+  /* Style the side navigation */
+  .sidenav {
+    height: 100%;
+    width: 200px;
+    position:absolute;
+    z-index: 1;
+    top: auto;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    /* border-radius: var(--bs-border-radius); do not delete*/
+    
+
+  }
+
+  .sidenav{
+    width: 15%;
+  }
+  
+  /* Side navigation links */
+  .sidenav a {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color on hover */
+  .sidenav a:hover {
+    background-color: #ddd;
+    color: black;
+    
+  }
+  
+  /* Style the content */
+
+  /* This class was originally the only way I could adjust the width.
+  .carouselExampleFade
+  width: 85%; */
+
+ .carousel{
+  position: absolute;
+  left:15%;
+  width: 85%;
+ }

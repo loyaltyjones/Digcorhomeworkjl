@@ -1,0 +1,43 @@
+.accordion{
+    display:flex
+    justify-content:space-between;
+    width: 300px;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: monospace;
+    color: aqua;
+
+
+} 
+/* .d-block{ */
+    height: 500px;
+    width: auto;
+    
+}
+
+
+/* .topac {
+    background-color: brown;
+} */
+
+/* .accordion-buttoncollasped{ */
+     width: 300px;
+     background-color: brown;
+
+}
+
+/* .tt{ */
+    color: aqua;
+    font-size: x-small;
+}
+
+
+
+/* .accordion{ */
+    display: flex;
+    
+    
+
+}
+
+x
