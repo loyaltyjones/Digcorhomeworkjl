@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../Food-Delight"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Food-Delight"
+	}
+}

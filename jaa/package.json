@@ -1,0 +1,17 @@
+{
+  "name": "jaa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "",
+    "seed": "PGPASSWORD=goodworks17 psql -U postgres -a -f sql/product.sql"
+  },
+  "author": "jaa",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.19.2",
+    "pg-promise": "^11.6.0"
+  }
+}
