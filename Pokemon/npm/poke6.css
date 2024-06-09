@@ -1,0 +1,107 @@
+/* body{
+    display: flex;
+    justify-content: space-around;
+} */
+.mainDiv{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: orange;
+}
+#pokemonTrainerMain{
+    display:flex;
+    flex-direction: column;
+    background-color: aqua;
+    border: solid green;
+    height: 800px;
+    width: 125px;
+}
+
+#pokemonOppTrainer{
+    display:flex;
+    flex-direction: column;
+    background-color: blue;
+    border: solid red;
+    height: 800px;
+    width: 125px;
+    /* position: absolute;
+    right: 0%;
+    top: 0%; */
+
+
+}
+.partyAttack{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    color: white;
+    height: 200px;
+    width: 400px;
+    background-color: green;
+    margin: 20px;
+}
+/* Party Pokemon attack buttons */
+.partyA{
+    height: 50px;
+    width: 100px;
+}
+
+#partyA1{
+    background-color: red;
+}
+
+
+/* Opponent Pokemon attack buttons */
+.oppAttack{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    color: white;
+    height: 200px;
+    width: 400px;
+    background-color: green;
+    margin: 20px
+}
+/* Opponent Pokemon attack buttons */
+.oppA{
+    height: 50px;
+    width: 100px;
+
+}
+.centerParty{
+    color: white;
+    height: 300px;
+    width: 400px;
+    background-color: green;
+    margin: 20px;
+
+}
+.centerOpp{
+    color: white;
+    height: 300px;
+    width: 400px;
+    background-color: green;
+    margin: 20px;
+
+     
+
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+/* #mainDiv img {
+    display:flex;
+    flex-direction: column;
+} */
+
+.player1{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+.player2{
+    position: absolute;
+    right: 10%;
+}
